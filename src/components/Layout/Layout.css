@@ -1,0 +1,53 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #712cf9;
+  color: white;
+  padding: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  color: white;
+}
+
+aside {
+  background-color: inherit;
+  width: 200px;
+  padding: 10px;
+  height: auto;
+}
+
+main {
+  flex: 1;
+  width: 80%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.dark-mode {
+  background-color: #303136;
+  color: #f4f4f5;
+}
+
+.light-mode {
+  background-color: #f4f4f5;
+  color: #303136;
+}
